@@ -144,4 +144,3 @@ Evaluation artifacts are recorded in [`evals/results_single.csv`](evals/results_
 1. **Semantic Catalog Matching:** The current catalog tool matches via exact vendor/product names and category classifications. For production catalogs with $>10,000$ SKUs, integrating vector embeddings (e.g. Pinecone/Chroma) will detect subtle functional overlaps across disparate categories.
 2. **Live HRIS & ERP Integration:** Integrating direct Webhooks or REST connectors to Workday/SAP to replace static CSV snapshots for live departmental budget tracking.
 3. **Multi-turn Dialogue:** Future iterations could incorporate interactive chat allowing the copilot to converse directly with employees to collect missing information in real time.
-# fde-assignment-procurement-request-copilot
